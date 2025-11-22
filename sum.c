@@ -1,14 +1,11 @@
+//program to find sum of two numbers
 #include<stdio.h>
-int main()
+main()
 {
-	int n,rem,sum=0;
-	printf("enter a number");
-	scanf("%d",&n);
-	while(n!=0)
-	{
-		rem=n%10;
-		sum=sum+rem;
-		n=n/10;
-	}
-	printf("sum of digits:%d",sum);
+	int a,b,sum;
+	printf("enter a and b values");
+	scanf("%d%d",&a,&b);
+	sum=a+b;
+	printf("the sum of a&b is %d/n",sum);
+	printf("the sum of %d & %d is %d",a,b,sum);
 }
